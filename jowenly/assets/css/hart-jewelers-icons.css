@@ -1,0 +1,126 @@
+/* Hart Jewelers Custom Icons CSS */
+/* This replaces the flaticon system with Hart Jewelers branding */
+
+.hart-logo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url('../images/hart-jewelers-logo-icon.svg') no-repeat center center;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+/* Icon replacements with Hart Jewelers branding */
+.flaticon-shopping-basket:before,
+.flaticon-heart:before,
+.flaticon-double-quotes:before,
+.flaticon-facebook-app-symbol:before,
+.flaticon-twitter:before,
+.flaticon-linkedin:before,
+.flaticon-instagram:before,
+.flaticon-telegram:before,
+.flaticon-profile:before,
+.flaticon-like:before,
+.flaticon-pin:before,
+.flaticon-time:before,
+.flaticon-quote:before,
+.flaticon-search:before,
+.flaticon-chatting:before,
+.flaticon-email:before,
+.flaticon-telephone:before,
+.flaticon-right-arrow:before,
+.flaticon-left-arrow:before,
+.flaticon-telephone-1:before,
+.flaticon-house:before,
+.flaticon-email-1:before,
+.flaticon-comment-white-oval-bubble:before,
+.flaticon-calendar:before,
+.flaticon-next:before,
+.flaticon-left-arrow-1:before,
+.flaticon-checked:before,
+.flaticon-play:before,
+.flaticon-play-1:before,
+.flaticon-right-arrow-1:before,
+.flaticon-pin-1:before,
+.flaticon-add-to-cart:before,
+.flaticon-eye:before,
+.flaticon-remove:before,
+.flaticon-phone-call:before,
+.flaticon-clock:before {
+    content: "♦";
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #c9a876;
+    font-size: 1.2em;
+}
+
+/* Specific icon customizations */
+.flaticon-heart:before {
+    content: "♡";
+    color: #c9a876;
+}
+
+.flaticon-shopping-basket:before {
+    content: "🛒";
+}
+
+.flaticon-facebook-app-symbol:before {
+    content: "f";
+    font-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+.flaticon-twitter:before {
+    content: "t";
+    font-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+.flaticon-instagram:before {
+    content: "i";
+    font-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+.flaticon-linkedin:before {
+    content: "in";
+    font-family: "Font Awesome 5 Brands", sans-serif;
+}
+
+.flaticon-telegram:before {
+    content: "→";
+    color: #c9a876;
+}
+
+.flaticon-double-quotes:before {
+    content: '"';
+    font-size: 2em;
+    color: #c9a876;
+}
+
+/* Hart Jewelers logo class for main branding */
+.hart-jewelers-logo {
+    display: inline-block;
+    background: url('../images/hart-jewelers-logo.svg') no-repeat center center;
+    background-size: contain;
+    width: 150px;
+    height: 60px;
+}
+
+/* Hart Jewelers small logo for icons */
+.hart-jewelers-icon {
+    display: inline-block;
+    background: url('../images/hart-jewelers-icon.svg') no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* Fallback for missing images */
+.hart-jewelers-logo:before,
+.hart-jewelers-icon:before {
+    content: "Hart Jewelers";
+    font-family: serif;
+    font-weight: bold;
+    color: #c9a876;
+    font-size: 0.8em;
+}

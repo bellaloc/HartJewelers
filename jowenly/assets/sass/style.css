@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*------------------------------------------------------------------
 [Master Stylesheet]
-Theme Name:     jowenly-Jewelry Store HTML5 Template
+Theme Name:     Hart Jewelers - Custom Jewelry & Restoration
 Version:        1.0.0
 -------------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -2992,7 +2992,7 @@ img {
   transform: translateY(-50%);
   font-size: 10px;
   content: "\f115";
-  font-family: flaticon_jowenly !important;
+  font-family: hart-jewelers-icons !important;
 }
 .wpo-site-footer .link-widget ul li a:hover {
   color: #BA9659;
@@ -7059,7 +7059,7 @@ img {
   }
 }
 .wpo-blog-single-section .post blockquote:before {
-  font-family: flaticon_jowenly !important;
+  font-family: hart-jewelers-icons !important;
   content: "\f105";
   font-size: 25px;
   color: rgba(255, 255, 255, 0.5);

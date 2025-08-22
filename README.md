@@ -27,7 +27,7 @@
 
 ## How to Use
 
-1. **Open the project folder `HartJewelers/jowenly` in your code editor** to customize content and styles.
+1. **Open the project folder `HartJewelers/website` in your code editor** to customize content and styles.
 2. **Edit HTML files** to update text, images, and products.
 3. **Modify styles** in `assets/css/style.css` or Sass files in `assets/sass` for advanced customizations.
 4. **Add or replace images** in `assets/images` for products, banners, and team members.
@@ -42,7 +42,7 @@
 To preview the site live on your local machine during development:
 
 - **Option 1: Using VS Code Live Server extension**
-  1. Open the `jowenly` folder in VS Code.
+  1. Open the `website` folder in VS Code.
   2. Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) if you don't have it.
   3. Right-click on `index.html` and select **Open with Live Server**.
   4. Your default browser will open a local server (usually `http://127.0.0.1:5500`), and you can see your site live.
@@ -50,7 +50,7 @@ To preview the site live on your local machine during development:
 
 - **Option 2: Using Python HTTP Server**
   1. Open a terminal/command prompt.
-  2. Navigate to the `jowenly` directory.
+  2. Navigate to the `website` directory.
   3. Run:
      - For Python 3:
        ```
@@ -70,9 +70,9 @@ To test PHP scripts such as the contact form on your local machine, use:
 
 - **XAMPP, WAMP, or MAMP** (depending on your OS)
   1. Install one of these PHP development environments.
-  2. Place the entire `jowenly` folder inside the `htdocs` (or equivalent) directory.
+  2. Place the entire `website` folder inside the `htdocs` (or equivalent) directory.
   3. Start Apache server from the control panel.
-  4. Access your site at `http://localhost/jowenly/index.html`.
+  4. Access your site at `http://localhost/website/index.html`.
   5. Test PHP features such as the contact form.
 
 ---
@@ -86,7 +86,7 @@ To test PHP scripts such as the contact form on your local machine, use:
 
 ### Steps
 
-1. Upload the entire `HartJewelers/jowenly` folder to your web server's public directory (e.g., `public_html` or `www`).
+1. Upload the entire `HartJewelers/website` folder to your web server's public directory (e.g., `public_html` or `www`).
 
 2. Ensure `mail-contact.php` has proper permissions and your server supports PHP mail() function.
 
