@@ -699,7 +699,7 @@ img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1px rgba(214, 52, 52, 0.1);
   margin-left: -60px;
   margin-top: -60px;
 }
@@ -880,14 +880,14 @@ img {
   transition: all 0.3s;
 }
 .blog-sidebar .search-widget input:focus {
-  background-color: rgba(227, 181, 118, 0.1);
+  background-color: rgba(156, 153, 105, 0.1);
 }
 .blog-sidebar .search-widget form button {
   background: transparent;
   font-size: 20px;
   font-size: 1.3333333333rem;
   color: #fff;
-  background-color: #e3b576;
+  background-color: #1335ca;
   border: 0;
   outline: 0;
   position: absolute;
